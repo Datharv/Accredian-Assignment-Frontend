@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-div{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-div{
+    font-weight: 900;
+    color: red;
+    font-size: 4rem;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .outer-div {
+            height: 70vh;
+        }
+   .inner-div{
+    font-size: 1.5rem;
+   }
+}
