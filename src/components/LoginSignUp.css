@@ -104,7 +104,7 @@
 .loginBtn,
 .signUpBtn {
     border: none;
-    background-color: #ff0000;
+    background-color: #ff0000  !important;
     color: rgb(255, 255, 255);
     font: 300 0.9vmax "Roboto";
     width: 100%;
